@@ -22,7 +22,7 @@ if uploaded_file is not None:
 
     # CHAMAR A FUNÇÃO DE CLASSIFICAÇÃO DE IMAGEM
     # E ARMAZENAR O RESULTADO NA VARIÁVEL LABEL.
-    label = funcao_classificar_imagem(uploaded_file, '/content/keras_model.h5')
+    label = funcao_classificar_imagem(uploaded_file, 'keras_model.h5')
 
     # CONDICIONAL PARA IDENTIFICAR A CLASSE DA IMAGEM.
     if label == 0:
